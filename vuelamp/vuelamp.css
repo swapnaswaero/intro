@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+    box-sizing: border-box;
+}
+.hero{
+    background: #1d2026;
+    min-height: 100vh;
+    width: 100%;
+    color: #fff;
+    position: relative;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px 8%;
+}
+.navbar .menu-img{
+    width: 25px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.navbar.logo{
+    width: 160px;
+    cursor: pointer;
+}
+.navbar ul{
+    flex: 1;
+    text-align: right;
+}
+.navbar ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0 20px;
+
+
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.navbar ul li :hover{
+
+    background: rgb(156, 229, 247);
+    transition: 2s;
+
+}
+button{
+    background: #efefef;
+    height: 30px;
+    width: 60px;
+    border-radius: 20px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    transition: background 0.5s;
+}
+button span{
+    display: block;
+    background: #999;
+    height: 26px;
+    width: 26px;
+    border-radius: 50px;
+    margin-left: 2px;
+    transition: background 0.5s, margin-left 0.5s;
+}
+.lamp.container{
+    position: absolute;
+    left: 22%;
+    width: 100px;
+
+
+}
+.lamp{
+    width:170px;
+    height: 300px;
+    margin-left: 30%;
+    margin-top: -20px;
+
+}
+.light{
+    position: absolute;
+    top: 60%;
+    left: 20%;
+    transform: matrix(-50%);
+    width: 410px;
+    margin-left: 10px;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+.text-container{
+    max-width: 500px;
+    margin-left: 50%;
+    margin-top: -70px;
+}
+.text-container h1{
+    font-size: 60px;
+    font-weight: 300;
+}
+.text-container a{
+    text-decoration: none;
+    background: #09986f;
+    padding: 14px 40px;
+    display: inline-block;
+    color: #ffff;
+    font-size: 18px;
+    border-radius: 30px;
+}
+
+.active{
+    background: green;
+}
+
+.active span{
+    background: #fff;
+    margin-left: 31px;
+}
+.on{
+    opacity: 1;
+}
