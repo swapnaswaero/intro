@@ -11,6 +11,7 @@
 }
 .navbar-brand:hover{
     color: white;
+    box-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px white;
 }
 .nav-link{
     margin-right: 10px;
@@ -18,9 +19,12 @@
     color: white;
     font-family: 'Rubik', sans-serif;
     text-transform: uppercase;
+    
 }
 .nav-link:hover{
     color:rgb(238, 248, 89);
+    background: white;
+    box-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px white;
 }
 input{
     height: 40px;
@@ -378,7 +382,7 @@ font-weight: bold;
 }
 .s1:hover{
     color: rgb(20,219,20);
-
+    transform: translateY(5px);
 }
 .footer p{
     color: rgb(20,219,20);
