@@ -11,7 +11,7 @@
 }
 .navbar-brand:hover{
     color: white;
-    box-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px white;
+   
 }
 .nav-link{
     margin-right: 10px;
@@ -23,7 +23,7 @@
 }
 .nav-link:hover{
     color:rgb(238, 248, 89);
-    background: white;
+    color: white;
     box-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px white;
 }
 input{
