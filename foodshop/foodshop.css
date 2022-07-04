@@ -1,0 +1,371 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar-brand{
+    font-size: 2rem;
+    font-family: 'Lobster', cursive;
+    
+    color:rgb(20,219,20);
+}
+.navbar-brand:hover{
+    color: white;
+}
+.nav-link{
+    margin-right: 10px;
+    margin-left: 10px;
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    text-transform: uppercase;
+}
+.nav-link:hover{
+    color:rgb(238, 248, 89);
+}
+input{
+    height: 40px;
+    width: 80%;
+    border-radius: 60px;
+    outline: none;
+    margin-right: -35px;
+    font-family: 'Rubik', sans-serif;
+    border: 2px solid rgb(20,219,20);
+}
+.btn0{
+    height: 40px;
+    width: 40%;
+    outline: none;
+    border: none;
+    background:rgb(20,219,20);
+    border-radius: 60px;
+    font-weight: 700;
+}
+i{
+    font-size: 30px;
+    color: black;
+    cursor: pointer;
+    padding-top:5px ;
+    
+}
+i:hover{
+    color: rgb(20,219,20);
+}
+.navbar-toggler{
+    font-size: 23px;
+    color:white;
+}
+.main{
+    background: url(./images/m1.jpg)no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: 50% 50%;
+    width: 100%;
+}
+.main h1{
+    font-size: 5rem;
+    font-family: 'Lobster', cursive;
+    
+}
+p{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.btn1{
+    height: 50px;
+    width: 25%;
+    border: none;
+    outline: none;
+    background-color:rgb(20,219,20) ;
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+   
+}
+.btn1:hover{
+    background-color:rgb(13,172,13) ;
+    transform: translateY(1px);
+}
+.btn2{
+    height: 50px;
+    width: 25%;
+    outline: none;
+    background-color:transparent;
+    color:rgb(20,219,20) ;
+    border: 1px solid rgb(20,219,20);
+    border-radius: 50px;
+    
+
+}
+.btn2:hover{
+    background-color: rgb(20,219,20);
+    border: none;
+    color: white;
+    transform: translateY(1px);
+    
+}
+.line{
+    height: 6px;
+    width: 30%;
+    background:rgb(20,219,20) ;
+    margin-left: 60px;
+   
+   
+}
+/*====About====*/
+.about{
+    background: url(./images/abut.jpg)no-repeat;
+    background-size: cover;
+    height: 90vh;
+    width: 100%;
+}
+.about h1{
+    font-size: 3rem;
+    font-weight: bold;
+    
+}
+
+.about p:nth-child(1){
+    font-size: 18px;
+    font-weight: 500;
+    padding-top: 100px;
+}
+.about p:nth-child(2){
+    font-size: 18px;
+    color: gray;
+}
+.welcome{
+    background: rgb(20,219,20);
+}
+.line2{
+    height: 6px;
+    width: 30%;
+    margin-left: 30%;
+    background-color: white;
+    display: block;
+}
+.welcome h1{
+font-size: 1.5rem;
+font-weight: bold;
+}
+.welcome.card{
+    border: none;
+    border-radius: 0;
+    cursor: pointer;
+}
+.welcome i{
+    font-size: 45px;
+    color:rgb(20,219,20);
+}
+.welcome h2{
+    font-weight: lighter;
+    padding: 10px; 
+    
+}
+/*=====product====*/
+.product h1{
+    font-size: 3rem;
+    font-weight: bold;
+    
+}
+
+
+.product p:nth-child(1){
+    font-size: 18px;
+    font-weight: 500;
+    padding-top: 100px;
+}
+.product p:nth-child(2){
+    font-size: 18px;
+    color: gray;
+}
+
+
+.star{
+    text-align: end;
+    
+}
+.product.card{
+    border: none;
+    border-radius: 0;
+    cursor: pointer;
+}
+.product.card-body{
+    border: 1px dashed rgb(190,185,185);
+}
+.head1{
+    font-weight: 400;
+    margin: 0;
+}
+.per{
+    color: rgb(168,162,162);
+}
+.btnc{
+    height: 40px;
+    width: 40%;
+    outline: none;
+    border: none;
+    color: white;
+    background: rgb(20,219,20);
+    border-radius: 50px;
+    margin: 0 auto;
+    display: block;
+    transform: translateX(1px);
+}
+.btnc:hover{
+    outline: none;
+    border: 1px solid rgb(20,219,20);
+    color: rgb(20,219,20);
+    background: transparent;
+    border-radius: 50px;
+}
+.btn3{
+    height: 40px;
+    width: 20%;
+    margin-left: 40%;
+    border: none;
+    outline: none;
+    background-color:rgb(20,219,20) ;
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+}
+.discount{
+
+    background: rgb(20,219,20);
+    color: white;
+}
+.dbtn{
+    height: 50px;
+    width: 75%;
+    outline: none;
+    border: none;
+    color: black;
+    background-color: white;
+    border-radius: 50px;
+    margin: 0 auto;
+    display: block;
+    font-weight: lighter;
+    transform: translateX(1px);
+}
+.dbtn:hover{
+    background:rgb(255, 245, 245);
+}
+/*=====store====*/
+.store h1{
+    font-size: 3rem;
+    font-weight: bold;
+}
+    
+.store p:nth-child(1){
+    font-size: 18px;
+    font-weight: 500;
+    
+}
+.store p:nth-child(2){
+    font-size: 18px;
+    color: gray;
+}
+.store i{
+    font-size: 45px;
+    
+}
+.store.card{
+    border-radius: 0;
+    border: none;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.store .card:hover{
+    background-color: rgb(20,219,20);
+    color: white;
+}
+.store.card:hover.per1{
+    color: white;
+}
+/*======seller====*/
+.seller{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.seller.card{
+    border-radius: 0;
+    border: none;
+}
+/*========contact=========*/
+.contact{
+    background: url(./images/contact.jpg)no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+.contact h1{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: wheat;
+}
+.contact p{
+    color: white;
+}
+.circle{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 18px;
+}
+.contact input{
+    height: 40px;
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: white;
+    margin-top: 10px;
+    padding: 10px;
+}
+.contact textarea{
+    height: 100px;
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: white;
+    margin-top: 10px;
+    padding: 10px;
+}
+.cbtn{
+    height: 50px;
+    width: 65%;
+    outline: none;
+    border: none;
+    color: black;
+    background: white;
+    border-radius: 50px;
+    font-weight: lighter;
+    transition: all 0.3s;
+}
+.cbtn:hover{
+   background: rgb(185,185,185); 
+}
+/*=====Footer=====*/
+.footer{
+    background: gray;
+}
+.s1{
+    height: 40px;
+    width: 40px;
+    background-color: transparent;
+    display: inline-block;
+    text-align: center;
+    padding-top: 5px;
+    margin-left: 10px;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.s1:hover{
+    color: rgb(20,219,20);
+
+}
+.footer p{
+    color: rgb(20,219,20);
+}
