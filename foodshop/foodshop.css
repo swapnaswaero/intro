@@ -60,7 +60,21 @@ i:hover{
     height: 100vh;
     background-position: 50% 50%;
     width: 100%;
+   animation: image 10s linear infinite;
 }
+@keyframes image{
+    0%{
+        background-image: url(./images/m1.jpg);
+    }
+    50%{ 
+       background-image: url(https://cdn.pixabay.com/photo/2018/03/09/17/39/paprika-3212137__340.jpg);
+    }
+    
+    100%{
+        background-image: url(https://cdn.pixabay.com/photo/2020/07/03/05/02/tomatoes-5365186__340.jpg);
+    }
+}
+
 .main h1{
     font-size: 5rem;
     font-family: 'Lobster', cursive;
