@@ -6,11 +6,11 @@
 .navbar-brand{
     font-size: 2rem;
     font-family: 'Lobster', cursive;
-    
     color:rgb(20,219,20);
 }
 .navbar-brand:hover{
     color: white;
+     box-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px white;
    
 }
 .nav-link{
@@ -22,7 +22,7 @@
     
 }
 .nav-link:hover{
-    color:rgb(238, 248, 89);
+   
     color: white;
     box-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px white;
 }
